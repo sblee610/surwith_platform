@@ -1,0 +1,182 @@
+@font-face{
+    font-family:"KoPubWorldDotum";
+    src:url("./font/KoPubWorld Dotum Medium.ttf") format("truetype");
+
+}
+.메뉴바{
+    position: absolute;
+    width: 100%;
+    height: 104px;
+    left: 0%;
+    top: 0px;
+    background: #FFFFFF;
+}
+hr.menuline{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 40%;
+    bottom: 60%;
+
+    border: 1px solid #E5E5E5;
+}
+#회사소개 {
+    position: absolute;
+    left: 8.54%;
+    right: 81.18%;
+    top: 58.65%;
+    bottom: 0%;
+}
+#서윗학습법{
+    position: absolute;
+    left: 18.82%;
+    right: 70.83%;
+    top: 58.65%;
+    bottom: 0%;
+}
+#교육과정{
+    position: absolute;
+    left: 29.17%;
+    right: 60.56%;
+    top: 58.65%;
+    bottom: 0%;
+}
+#수강신청{
+    position: absolute;
+    left: 39.44%;
+    right: 50.21%;
+    top: 58.65%;
+    bottom: 0%;
+}
+#학습후기{
+    position: absolute;
+    left: 49.79%;
+    right: 39.93%;
+    top: 58.65%;
+    bottom: 0%;
+}
+#공지사항{
+    position: absolute;
+    left: 60.35%;
+    right: 29.38%;
+    top: 58.65%;
+    bottom: 0%;
+
+}
+.메뉴바 button{
+    font-family: KoPubWorldDotum;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.8px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background:none;
+    margin:0px;
+    padding: 0px;
+    border: 0px white;
+    outline:none;
+    cursor: pointer;
+}
+.메뉴버튼 > button:hover > div::after {
+    content: '';
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 3px;
+    border-bottom: 3px solid #FFD60C;
+    transition:all .3s ease;
+}
+.메뉴버튼 > button > div::after {
+    content: '';
+    width: 0%;
+    left: 50%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 3px;
+    border-bottom: 3px solid #FFD60C;
+    transition:all .3s ease;
+  }
+.메뉴버튼> button:hover { color:#FFD60C; transition:all .3s ease }
+
+#로그인{
+    position: absolute;
+    left: 66.94%;
+    right: 28.06%;
+    top: 4.81%;
+    bottom: 53.85%;
+
+    font-family: KoPubWorldDotum;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#회원가입{
+    position: absolute;
+    left: 74.1%;
+    right: 20.9%;
+    top: 4.81%;
+    bottom: 53.85%;
+
+    font-family: KoPubWorldDotum;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#IDPW{
+    position: absolute;
+    left: 81.25%;
+    right: 7.78%;
+    top: 4.81%;
+    bottom: 53.85%;
+    
+    font-family: KoPubWorldDotum;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #9E9E9E;
+}
+#myroom{
+    position: absolute;
+    left: 81.18%;
+    right: 8.54%;
+    top: 58.65%;
+    bottom: 0%;
+    
+    font-family: KoPubWorldDotum;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000; 
+    position: absolute;
+
+    background: #FFD60C;
+    border-radius: 25px;
+}
